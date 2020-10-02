@@ -1,6 +1,6 @@
 #  CS50
 
-- Problem Set 1: C</a>
+-  [Problem Set 1:](https://cs50.harvard.edu/x/2020/psets/1/) C</a>
   * Test
 - Problem Set 2: C</a>
   * Test 
@@ -14,7 +14,7 @@
   * Test
 - Problem Set 7: Python</a>
   * Test
-- Problem Set 8: C</a>
+- Problem Set 8: Swift</a>
 
 
 #  Certificate 
