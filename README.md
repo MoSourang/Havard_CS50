@@ -10,9 +10,9 @@
   * Test
 - Problem Set 5: C</a>
   * Test
-- Problem Set 6: C</a>
+- Problem Set 6: Python</a>
   * Test
-- Problem Set 7: C</a>
+- Problem Set 7: Python</a>
   * Test
 - Problem Set 8: C</a>
 
