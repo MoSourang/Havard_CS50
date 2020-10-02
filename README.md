@@ -24,7 +24,7 @@
 -  [Problem Set 7: ](https://cs50.harvard.edu/x/2020/psets/7/) SQL</a>
     * Movies
     * Houses
--  [Problem Set 8: ](https://cs50.harvard.edu/x/2020/psets/8/) Swift</a>
+-  [Problem Set 8: ](https://cs50.harvard.edu/x/2020/tracks/mobile/ios/) Swift</a>
     * Pokédex
     * Fiftygram 
     * Notes 
