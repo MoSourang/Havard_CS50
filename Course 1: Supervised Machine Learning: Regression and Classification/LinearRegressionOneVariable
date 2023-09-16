@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMjNBU4e8zX2NPEnajM9mqA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MoSourang/Havard_CS50/blob/master/Course%201%3A%20Supervised%20Machine%20Learning%3A%20Regression%20and%20Classification/LinearRegressionOneVariable\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "eG4gDFlu8gCY"
+      },
+      "outputs": [],
+      "source": [
+        "def calculate_cost(x, y, w, b):\n",
+        "\"\"\"calculate the cost function for linear regression with\n",
+        "one feature x \"\"\"\n",
+        "\n",
+        "# Number of input feature\n",
+        "m = x.shape[0]\n",
+        "\n",
+        "# Store the sum of all costs\n",
+        "cost_sum = 0\n",
+        "\n",
+        "# Iterate and calculate cost\n",
+        "for i in range(m):\n",
+        "    f_wb = x[i] * w + b\n",
+        "    cost = (f_wb - y[i]) ** 2\n",
+        "    cost_sum += cost\n",
+        "\n",
+        "total_cost =  cost_sum / (2*m)\n",
+        "return total_cost\n"
+      ]
+    }
+  ]
+}
